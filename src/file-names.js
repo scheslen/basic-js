@@ -24,7 +24,6 @@ function renameFiles(names)  {
       while (aRes.includes(names[i]+`(${n})`)) n++;
       aRes[i] = names[i]+`(${n})`;
      }
-     
   }
 return aRes;
 }
